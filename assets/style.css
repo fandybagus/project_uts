@@ -1,0 +1,449 @@
+*{
+    margin: 0;
+}
+body{
+    background-image: url(459238766b2993f90c1ab605ed181ba0.jpg);
+    background-size: cover;
+    
+}
+nav{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    background-color: black;
+    padding: 8px;
+}
+
+nav a{
+	color: rgb(255, 0, 0);
+	text-decoration: none;
+    transition: 0.3;
+}
+
+nav li:hover{
+	padding: 10px;
+    background-color: rgb(0, 166, 243);
+}
+.kiri{
+    float: left;    
+}
+.kanan{
+    float: right;
+    margin: 6px 15px auto;
+    color: rgb(255, 0, 0);
+    display: flex;
+    flex-direction: row;
+}
+.kanan li{
+    list-style: none;
+    margin: 5px;
+    border: 3px solid red;
+    background-color: red;
+    border-radius: 8px;
+    padding: 10px;
+}
+.gambar1{
+    border: 5px ridge red;
+    border-radius: 50%;
+    
+}
+.header{
+    padding: 80px 0px 0px 150px;
+}
+hr{
+    border-bottom: 3px solid red;
+    width: 85%;
+}
+.judul1{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+    text-shadow: 2px 2px rgb(255, 0, 0);
+}
+.judul2{
+    text-shadow: 2px 1px rgb(255, 255, 255);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 18px;
+}
+.container2{
+    width: 80%;
+    margin: 10px auto ;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container h2{
+    text-align: center ;
+}
+.bx1{
+    width: 50%;
+    margin: 10px auto;
+}
+.bx1 p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: oblique;
+}
+.bx2{
+    margin-top: 80px;
+    padding-bottom: 20px;
+}
+.bx2 h2{
+    text-align: center;
+}
+.img-box{   
+    width: 150px;
+    height: 150px;
+    margin-bottom: 10px ;
+    position: static;
+    border: 5px ridge red;
+    
+}
+
+.img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.img-box p{
+    color: wheat;
+    border: 2px double white;
+    background-color: red;
+    top: 43%;
+    width: 100%;
+    padding: 2px 0px 2px 0px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 5px;
+    border-radius: 20px;
+}
+.img-box p:hover{
+    background-color: rgb(86, 136, 136); 
+    cursor: pointer;   
+}
+.bx3{
+    max-width: 600px;
+    background-color: grey;
+    margin: 80px auto;
+    border-radius: 5px ;
+    padding: 10px;
+    border: 4px solid black;
+}
+.bx3 h2{
+    text-align: center;
+}
+.table{
+    margin: 10px auto;  
+}
+.name{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+td{
+    color: white;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.email{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    margin-left: 5px;
+}
+select,textarea{
+    width: 100%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+}
+button{
+        width: 70%;
+        padding: 10px;
+        background-color: #03ff20;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+}
+button:hover {
+    background-color: #2ebe21;}
+
+footer{
+    max-width: 100%;
+    height: 30px;
+    padding: 10px;
+    background-color: red
+}
+footer .kiri{
+    float: left;
+    color: aliceblue;
+    
+}
+footer .kanan{
+    float: right;
+    color: aliceblue;
+}
+.kanan a{
+    padding-right: 5px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.kanan a:hover{
+    color: yellow;
+}
+
+/* profil */
+body{
+    background-image: url(maxresdefault.jpg);
+    background-size: cover;
+}
+.k1{
+    float: left;
+    border: 2px solid rgb(0, 0, 0);
+    width: 600px;
+    background-color: #fff;
+    margin: 15px;
+    height: 330px;
+    border-radius: 30px;
+}
+.k1 h3{
+    text-align: center;
+}
+.k1 p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.k2{
+    background-color: #fff;
+    border: 2px solid rgb(0, 0, 0);
+    float: right;
+    width: 600px;
+    margin: 15px;
+    border-radius: 30px;
+}
+.k2 h3{
+    text-align: center;
+}
+.k2 p{
+    text-align: justify;
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.container3{
+    width: 97%;
+    margin: 400px auto;
+}
+.b1{
+    padding: 40px;
+}
+.b1 p{
+    font-size: 30px;
+    text-align: justify;
+    margin-top: 40px;
+}
+.foto1{
+    float: left;
+    margin-right: 20px;
+    border: 8px double red;
+}
+.b2{
+    padding: 60px;
+    margin-top: 50px;
+    border: 8px double red;
+}
+.b2 p{
+    font-size: 30px;
+    text-align: justify;
+    
+}
+.foto2{
+    float: right;
+    margin-left: 20px;
+    border: 8px double red;
+}
+.foto3{
+    float: left;
+    margin-right: 20px;
+    border: 8px double red;
+}
+
+.foto4{
+    float: right;
+    margin-left: 20px;
+    border: 8px double red;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .header {
+        padding: 80px 0px 0px 5px;
+        
+    }
+    
+    .kanan li{
+        list-style: none;
+        margin: 5px;
+        border: 3px solid red;
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 5px;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    .kanan{
+        float: right;
+        margin: 6px 15px auto;
+        color: rgb(255, 0, 0);
+        display: flex;
+        flex-direction: row;
+        margin-top: 13px;
+    }
+    
+    .container h2{
+        text-align: center ;
+        margin-top: 30px;
+    }
+    .bx1 p{
+        text-align: justify;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-style: oblique;
+
+    }
+    .judul1{
+        font-size: 20px;
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-style: oblique;
+        text-shadow: 2px 2px rgb(255, 0, 0);
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+    hr{
+        border-bottom: 3px solid red;
+        width: 95%;
+        margin-left: 5px;
+    }
+    .judul2{
+        text-shadow: 2px 1px rgb(255, 255, 255);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-style: italic;
+        font-size: 18px;
+        margin-left: 5px;
+    }
+    .img-box {
+        width: 100%;
+        margin-bottom: 40px;
+    }
+    .bx3 {
+        padding: 20px;
+    }
+    .name{
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+        width: 20%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .kiri{
+        float: left;
+        color: aliceblue;
+        font-size: 10px;
+    }
+    footer .kanan{
+        float: right;
+        color: aliceblue;
+        font-size: 10px;
+    }
+    .kanan a{
+        padding-right: 5px;
+        color: aliceblue;
+        text-decoration: none;
+    }       
+    select,textarea{
+        width: 91%;
+        border: 2px solid rgb(0, 0, 0);
+        border-radius: 5px;
+    }
+
+    .k1{
+        float: left;
+        border: 2px solid rgb(0, 0, 0);
+        width: 400px;
+        background-color: #fff;
+        border: 2px solid rgb(0, 0, 0);
+        margin-left: 20px;
+    }
+    
+    .k1 p{
+        text-align: justify;
+        font-size: 20px;
+        margin: 5px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .k2{
+        background-color: #fff;
+        border: 2px solid rgb(0, 0, 0);
+        float: right;
+        width:  400px;
+        margin: 15px;
+    }
+    
+    .b1 p{
+        font-size: 15px;
+        text-align: justify;
+        
+    }
+    .foto1{
+        float: left;
+        margin-right: 20px;
+        border: 8px double red;
+        height: 40%;
+        width: 50%;
+        margin-top: 10px;
+    }
+    .b2{
+        padding: 60px;
+        margin-top: 50px;
+        border: 8px double red;
+    }
+    .b2 p{
+        font-size: 15px;
+        text-align: justify;
+        
+    }
+    .foto2{
+        float: right;
+        margin-left: 20px;
+        border: 8px double red;
+        height: 40%;
+        width: 50%;
+    }
+    .foto3{
+        float: left;
+        margin-right: 20px;
+        border: 8px double red;
+        height: 40%;
+        width: 50%;
+    }
+    
+    .foto4{
+        float: right;
+        margin-left: 20px;
+        border: 8px double red;
+        height: 40%;
+        width: 50%;
+    }
+}
+
